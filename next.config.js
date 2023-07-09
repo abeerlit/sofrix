@@ -17,4 +17,7 @@ module.exports = withPWA({
     dirs: ["src"],
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 });

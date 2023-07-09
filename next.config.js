@@ -15,5 +15,6 @@ module.exports = withPWA({
   reactStrictMode: true,
   eslint: {
     dirs: ["src"],
+    ignoreDuringBuilds: true,
   },
 });

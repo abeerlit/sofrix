@@ -39,7 +39,7 @@ function LetsTalk() {
                     color={'black'}
                     fontSize={'16px'}
                 >
-                    yourmail@gmail.com
+                    support@sofrix.com
                 </Text>
                 <Text
                     mt='54px'
@@ -53,11 +53,13 @@ function LetsTalk() {
                     spacing={'20px'}
                 >
                     <Link
+                    href=' https://www.linkedin.com/company/sofrix'
                         color={'black'}
                         fontSize={'16px'}
                         textDecoration={'underline'}
-                    >Instagram
+                    >LinkedIn
                     </Link>
+{/*                    
                     <Link
                         color={'black'}
                         fontSize={'16px'}
@@ -69,7 +71,7 @@ function LetsTalk() {
                         fontSize={'16px'}
                         textDecoration={'underline'}
                     >Facebook
-                    </Link>
+                    </Link> */}
                 </Stack>
             </Box>
             <Box

@@ -25,7 +25,7 @@ const Home = () => {
       <Services />
       <OurProjects />
       <Features />
-      <Feedback />
+      {/* <Feedback /> */}
       <LetsTalk />
     </Box>
   );

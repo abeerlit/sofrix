@@ -11,7 +11,7 @@ function ServiceCard({ title, description, icon }: {
             width={{ base: "full", md: "360px" }}
             position={'relative'}
             bg={'white'}
-            height={'166px'}
+            height={'250px'}
             align={'center'}
             gap={'25px'}
             border='1px solid rgba(239, 239, 239, 0.60)'
@@ -54,7 +54,7 @@ function Services() {
                     maxW={'700px'}
                     textAlign={'center'}
                 >
-                    Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests.
+                    At Sofrix, our cutting-edge services are designed to redefine possibilities in the digital age. Explore excellence through API Integrations, Custom App Development, Data Architecture, and Reliability services.
                 </Text>
             </Center>
             <Box width={'100%'} px={{ base: "20px", md: "64px" }} >
@@ -72,13 +72,13 @@ function Services() {
                         flexDirection={{ base: "column", md: "row" }}
                         gap={{ base: "30px", md: '40px' }}>
                         <ServiceCard
-                            title='Service1'
-                            description='Our support team will get assistance from AI-powered.'
+                            title='Integrations'
+                            description='Sofrix excels in seamless API integrations, optimizing communication and efficiency in your digital ecosystem'
                             icon='/service/service1.svg'
                         />
                         <ServiceCard
-                            title='Service2'
-                            description='Our support team will get assistance from AI-powered.'
+                            title='Custom App Development'
+                            description='Enhance your digital presence with Sofrix customized web development solutions, providing a distinct competitive edge in the online arena'
                             icon='/service/service2.svg'
                         />
                     </Flex>
@@ -86,15 +86,16 @@ function Services() {
                         flexDirection={{ base: "column", md: "row" }}
                         gap={{ base: "30px", md: '40px' }}>
                         <ServiceCard
-                            title='Service3'
-                            description='Our support team will get assistance from AI-powered.'
+                            title='Data Architecture and Foundations'
+                            description='Sofrix architects scalable and efficient data structures, ensuring organized and accessible information, laying the groundwork for data-driven success and business growth.'
                             icon='/service/service3.svg'
                         />
                         <ServiceCard
-                            title='Service4'
-                            description='Our support team will get assistance from AI-powered.'
+                            title='Reliability'
+                            description='Trust Sofrix for dependable solutions – from stable applications to secure data architecture, we ensure your digital infrastructure is robust, secure, and consistently performs at its best'
                             icon='/service/service4.svg'
-                        />       <Image
+                        />       
+                        <Image
                             position={'absolute'}
                             right={0}
                             bottom={0}

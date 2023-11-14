@@ -11,26 +11,26 @@ import type { ReactNode } from 'react';
 
 
 const Socials = [
-  {
-    title: 'Instagram',
-    icon: '/insta.svg',
-    to: '#'
-  },
+  // {
+  //   title: 'Instagram',
+  //   icon: '/insta.svg',
+  //   to: '#'
+  // },
   {
     title: 'LinkedIn',
     icon: '/linkedin.svg',
-    to: '#'
+    to: 'https://www.linkedin.com/company/sofrix'
   },
-  {
-    title: 'Facebook',
-    icon: '/fb.svg',
-    to: '#'
-  },
-  {
-    title: 'Twitter',
-    icon: '/twitter.svg',
-    to: '#'
-  }
+  // {
+  //   title: 'Facebook',
+  //   icon: '/fb.svg',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Twitter',
+  //   icon: '/twitter.svg',
+  //   to: '#'
+  // }
 ]
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
@@ -109,7 +109,10 @@ export default function Footer() {
               <Image src='/logo-dark.svg' alt='Logo' />
             </Box>
             <Text fontSize="16px" color={'white'} maxW={'316px'}>
-              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks.
+            Expertly crafting the digital experiences of tomorrow 
+            </Text>
+            <Text fontSize="13px" color={'white'} maxW={'316px'}>
+            IT Services and IT Consulting
             </Text>
           </Stack>
           <Stack align="flex-start">
@@ -135,8 +138,8 @@ export default function Footer() {
           <Stack align="flex-start" gap={'20px'} justify={'space-between'}>
             <Stack>
               <ListHeader>Contact Us</ListHeader>
-              <LinkItem href="#">+01 234 567 8910 </LinkItem>
-              <LinkItem href="#">yourmail@gmail.com </LinkItem>
+              <LinkItem href="#">+92 343 7920 342 </LinkItem>
+              <LinkItem href="#">support@sofrix.com </LinkItem>
             </Stack>
             <Stack direction={'row'} spacing={'18px'}>
               {

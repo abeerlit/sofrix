@@ -4,34 +4,35 @@ function HireEmployees() {
     const data = [
         {
             title: "Hire a Web Designer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+            description: "Turn your digital vision into reality with our skilled web design specialist. Elevate your online presence – hire us for expertly seamless and professional design experiences.",
             icon: '/employees/web-designer.svg'
         },
         {
             title: "Hire a App Developer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+            description: 
+            "Harness digital success with our expert app developer, specializing in efficient and innovative solutions. Turn your ideas into reality – hire us for tailored app development services.",
             icon: '/employees/app-developer.svg'
         },
         {
             title: "Hire a QA Engineer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+            description:  "Elevate your software reliability with our QA specialist's meticulous testing and commitment to excellence. Hire us for rigorous QA processes ensuring your product meets the highest standards.",
             icon: '/employees/qa-eng.svg'
         },
         {
-            title: "Hire an Al Engineer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+            title: "Get a Service",
+            // description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
             icon: '/employees/ai-eng.svg'
         },
-        {
-            title: "Hire a Digital Marketer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
-            icon: '/employees/digital-marketer.svg'
-        },
-        {
-            title: "Hire a UI/UX Designer",
-            description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
-            icon: '/employees/ux-designer.svg'
-        },
+        // {
+        //     title: "Hire a Digital Marketer",
+        //     description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+        //     icon: '/employees/digital-marketer.svg'
+        // },
+        // {
+        //     title: "Hire a UI/UX Designer",
+        //     description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
+        //     icon: '/employees/ux-designer.svg'
+        // },
     ]
     return (
         <SimpleGrid minChildWidth={{ base: "280px", md: '380px' }} spacingY={"20px"} spacingX={{ base: "40px", md: "80px" }}

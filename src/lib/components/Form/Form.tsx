@@ -119,7 +119,7 @@ const Form = () => {
                         name="service"
                         value={values.service}
                         onChange={handleChange}
-                        placeholder="Select project type"
+                        placeholder="Select a Service"
                         height={'46px'}
                         borderRadius={'4px'}
                         bg='#F7F7F7'
@@ -128,9 +128,10 @@ const Form = () => {
                         fontSize={'14px'}
                         icon={<Image src={'/chevron-down.svg'} alt="arrow down" />}
                     >
-                        <option value="service1">Service 1</option>
-                        <option value="service2">Service 2</option>
-                        <option value="service3">Service 3</option>
+                       <option value="service1">Integrations</option>
+                        <option value="service2">Custom App Development</option>
+                        <option value="service3">Data Architecture and Foundations</option>
+                        <option value="service3">Reliability</option>
                     </Select>
                     <FormErrorMessage>{errors.service}</FormErrorMessage>
                 </FormControl>

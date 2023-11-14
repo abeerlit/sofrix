@@ -46,7 +46,7 @@ export default function Header() {
             aria-label="Toggle Navigation"
           />
         </Flex>
-        <Image src="/logo.svg" alt="logo" />
+        <Image src="/logo.png" alt="logo" />
 
         <Flex display={{ base: 'none', md: 'flex' }} align={'center'} >
           <DesktopNav />

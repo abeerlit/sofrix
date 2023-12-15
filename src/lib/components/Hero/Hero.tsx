@@ -33,7 +33,7 @@ function Hero() {
                     >
                         Work with the best developers from around the world on our secure flexible and cost-effective platform.
                     </Text>
-                    <Button mt='32px' mb='30px' variant={'primary'} width={'158px'} height={'47px'} >
+                    <Button as={'a'} href="#contact-us" mt='32px' mb='30px' variant={'primary'} width={'158px'} height={'47px'} >
                         Contact us
                     </Button>
 

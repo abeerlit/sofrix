@@ -12,7 +12,7 @@ function StatCard({ value, description }: { value: number, description: string }
                 fontSize={{ base: "50px", md: "70px" }}
                 fontWeight={'600'}
             >
-                {value}%
+                {value}
             </Text>
             <Progress height={'5px'} value={value} />
 
@@ -29,17 +29,17 @@ function StatCard({ value, description }: { value: number, description: string }
 
 const statsValues = [
     {
-        value: 85,
-        description: "manage communication more efficiently"
+        value: "200+",
+        description: "Completed Projects"
     },
     {
-        value: 95,
-        description: "improve communication with customers and clients"
+        value: "150+",
+        description: "Happy Customers"
     },
-    {
-        value: 75,
-        description: "average improvement in team efficiency"
-    },
+    // {
+    //     value: 75,
+    //     description: "average improvement in team efficiency"
+    // },
 ]
 
 function Stats() {

@@ -28,12 +28,11 @@ export default function Header() {
       bg='#FAFAFC'>
       <Flex
         height={{ base: 'auto', md: '47px' }}
-        align="center"
+        align={{ base: 'flex-start', md: 'center' }}
         px={{ base: "20px", lg: '100px' }}
         justify={'space-between'}
       >
         <Flex
-          flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}
           display={{ base: 'flex', md: 'none' }}
         >
@@ -62,7 +61,7 @@ export default function Header() {
             as="a"
             display={{ base: 'none', md: 'inline-flex' }}
             variant='outlined'
-            href="#"
+            href="#contact-us"
             width={'145px'}
             height={'44px'}
           >
@@ -71,11 +70,11 @@ export default function Header() {
           <Button
             as="a"
             variant='primary'
-            href="#"
+            href="#contact-us"
             width={'120px'}
             height={'44px'}
           >
-            Hire a Team
+            Get Services
           </Button>
         </Stack>
       </Flex>
@@ -157,9 +156,9 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.label} py={2} href={child.href}>
+              <a key={child.label}  href={child.href}>
                 {child.label}
-              </Link>
+              </a>
             ))}
         </Stack>
       </Collapse>
@@ -177,15 +176,15 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Services',
-    href: '#',
+    href: '#services',
   },
   {
     label: 'About us',
-    href: '#',
+    href: '#about-us',
   },
   {
-    label: 'Blog',
-    href: '#',
+    label: 'Contact us',
+    href: '#contact-us',
   }
 ];
 

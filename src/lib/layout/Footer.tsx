@@ -50,44 +50,44 @@ const LinkItem = ({ href, children }: { href: string, children: ReactNode }) => 
   </Link>)
 }
 const aboutLinks = [
-  {
-    title: 'Home',
-    to: '#'
-  },
-  {
-    title: 'Features',
-    to: '#'
-  },
-  {
-    title: 'FAQs',
-    to: '#'
-  },
-  {
-    title: 'Reviews',
-    to: '#'
-  },
-  {
-    title: 'Stories',
-    to: '#'
-  },
+  // {
+  //   title: 'Home',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Features',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'FAQs',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Reviews',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Stories',
+  //   to: '#'
+  // },
 ]
 const privacyLinks = [
-  {
-    title: 'Privacy',
-    to: '#'
-  },
-  {
-    title: 'Policy',
-    to: '#'
-  },
-  {
-    title: 'Payment',
-    to: '#'
-  },
-  {
-    title: 'Terms',
-    to: '#'
-  },
+  // {
+  //   title: 'Privacy',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Policy',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Payment',
+  //   to: '#'
+  // },
+  // {
+  //   title: 'Terms',
+  //   to: '#'
+  // },
 ]
 
 const currentYear = new Date().getFullYear();
@@ -115,7 +115,7 @@ export default function Footer() {
             IT Services and IT Consulting
             </Text>
           </Stack>
-          <Stack align="flex-start">
+          {/* <Stack align="flex-start">
             <ListHeader>About</ListHeader>
             {
               aboutLinks.map((link, index) => (
@@ -134,7 +134,7 @@ export default function Footer() {
                 </Box>
               ))
             }
-          </Stack>
+          </Stack> */}
           <Stack align="flex-start" gap={'20px'} justify={'space-between'}>
             <Stack>
               <ListHeader>Contact Us</ListHeader>

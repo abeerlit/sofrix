@@ -19,14 +19,20 @@ const Home = () => {
       overflow={'hidden'}
     >
       <Hero />
-      <LogosStripe />
+      {/* <LogosStripe /> */}
+      <section id='about-us'>
       <HireEmployees />
+      </section>
       <Stats />
+      <section id='services'>
       <Services />
-      <OurProjects />
+      </section>
+      {/* <OurProjects /> */}
       <Features />
       {/* <Feedback /> */}
+      <section id='contact-us'>
       <LetsTalk />
+      </section>
     </Box>
   );
 };

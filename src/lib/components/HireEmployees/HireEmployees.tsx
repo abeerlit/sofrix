@@ -18,11 +18,6 @@ function HireEmployees() {
             description:  "Elevate your software reliability with our QA specialist's meticulous testing and commitment to excellence. Hire us for rigorous QA processes ensuring your product meets the highest standards.",
             icon: '/employees/qa-eng.svg'
         },
-        {
-            title: "Get a Service",
-            // description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",
-            icon: '/employees/ai-eng.svg'
-        },
         // {
         //     title: "Hire a Digital Marketer",
         //     description: "Lorem ipsum dolor sit amet consectetur. Maecenas ullamcorper ",

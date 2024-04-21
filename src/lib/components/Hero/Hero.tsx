@@ -3,7 +3,7 @@ import React from 'react'
 
 function Hero() {
     return (
-        <Box bg='#FAFAFC' position={'relative'} minH={'300px'} height={'min-content'}>
+        <Box bg='#FAFAFC' position={'relative'} minH={'90vh'} height={'min-content'}>
             <Flex justify='flex-end'>
                 <Image
                     display={{ base: 'none', md: 'block' }}

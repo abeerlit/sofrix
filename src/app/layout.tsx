@@ -11,7 +11,7 @@ const APP_NAME = 'Sofrix | Hire Developers & Expert Teams';
 
 export const metadata: Metadata = {
   title: APP_NAME,
-  description: 'Next.js + chakra-ui + TypeScript template',
+  description: 'Sofrix is a global provider of software development services, including software development, software consulting, and software development outsourcing.',
   viewport: {
     width: 'device-width',
     initialScale: 1,
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
   themeColor: '#FFFFFF',
   openGraph: {
     url: 'https://nextarter-chakra.sznm.dev',
-    title: 'nextarter-chakra',
-    description: 'Next.js + chakra-ui + TypeScript template',
+    title: APP_NAME,
+    description: 'Sofrix is a global provider of software development services, including software development, software consulting, and software development outsourcing.',
     images: {
-      url: 'https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
+      url: '/logo.png',
       alt: 'nextarter-chakra.sznm.dev og-image',
     },
   },
